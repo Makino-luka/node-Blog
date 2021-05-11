@@ -9,7 +9,7 @@ const getList = (author, keywords) => {
       sql += `and title like '%${keywords}%' `
     }
     sql += `order by createtime desc; `
-
+    console.log(sql);
     return exec(sql)
 }
 
@@ -32,6 +32,7 @@ const newBlog = (blogData = {}) => {
   `INSERT INTO blog (title, content, createtime, author)
   VALUES('${title}', '${content}', '${createtime}', '${author}')`
 
+  console.log(sql);
   return exec(sql).then(insertData => {
     // console.log('insertData=',insertData)
     return {

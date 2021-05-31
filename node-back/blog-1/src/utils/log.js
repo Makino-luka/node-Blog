@@ -24,7 +24,7 @@ function access(log) {
 
 // 写错误日志
 const errorWriteStream = createWriteStream('error.log')
-function access(log) {
+function error(log) {
   writeLog(errorWriteStream, log)
 }
 

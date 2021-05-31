@@ -16,3 +16,7 @@ POST -- /api/user/login -- Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) Apple
 GET -- /api/blog/list?isadmin=1 -- Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 -- 1620610046051
 POST -- /api/user/login -- Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:88.0) Gecko/20100101 Firefox/88.0 -- 1620610096260
 GET -- /api/blog/list?isadmin=1 -- Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:88.0) Gecko/20100101 Firefox/88.0 -- 1620610096416
+GET -- /api/user/login?username=lisi&password=123 -- Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 -- 1622431693869
+GET -- /favicon.ico -- Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 -- 1622431693951
+GET -- /api/blog/list -- Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 -- 1622431802730
+GET -- /api/blog/detail?id=14 -- Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 -- 1622431807962

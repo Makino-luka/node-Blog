@@ -1,0 +1,8 @@
+::1 - - [02/Jun/2021:02:21:11 +0000] "GET /api/blog/detail?id=16 HTTP/1.0" 304 - "http://localhost:8980/detail.html?id=16" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
+::ffff:127.0.0.1 - - [02/Jun/2021:02:21:11 +0000] "GET /api/blog/detail?id=16 HTTP/1.0" 304 - "http://localhost:8980/detail.html?id=16" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
+::1 - - [02/Jun/2021:02:21:14 +0000] "GET /api/blog/list?isadmin=1 HTTP/1.0" 200 483 "http://localhost:8980/admin.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
+::ffff:127.0.0.1 - - [02/Jun/2021:02:21:14 +0000] "GET /api/blog/list?isadmin=1 HTTP/1.0" 200 483 "http://localhost:8980/admin.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
+[0mGET /api/blog/detail?id=16 [36m304 [0m10.135 ms - -[0m
+[0mGET /api/blog/detail?id=16 [36m304 [0m1.975 ms - -[0m
+[0mGET /api/blog/list?isadmin=1 [32m200 [0m2.642 ms - 483[0m
+[0mGET /api/blog/list?isadmin=1 [32m200 [0m2.409 ms - 483[0m
